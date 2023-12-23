@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: 'Sogou UI light';
+  /*overflow: hidden;*/
+}
+#ser i
+{
+  font-size: 1.5rem;
+  color: coral;
+  margin: 20px 0px;
+}
+
+.heading
+{
+  /*background-image: url(../photo/360_F_209813639_VBo1pA6tlRBFqLtmi6n7QjLpYVjxZqHv.jpg);*/
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1{
+  opacity: .2;
+  font-size: 5rem;
+  font-weight: 800;
+
+}
+.heading h3{
+
+  font-size: 2.5rem;
+  font-weight: 800;
+  position: absolute;
+}
+.mid
+{
+  margin-top: 4%;
+  vertical-align: middle;
+}
+.midy
+{
+  margin-top: 10%;
+}
+hr {
+  border: none;
+  border-top: 1px dotted #333;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+.lines
+{
+  width: 15%;
+  height: .4%;
+  background-color: #333;
+  margin-bottom: 5%;
+}
+.tex
+{
+  text-align: center;
+}
+.text-mine
+{
+ 
+  color: coral;
+}
+.text-bolder
+{
+ 
+  font-weight: bolder !important;
+}
+.text-bold
+{
+ 
+  font-weight: bold !important;
+}
+
+.ab
+{
+  background-image: url(../photo/121687.jpg);
+   position: absolute;
+   opacity: .5;
+   z-index: -11;
+}
+.mar
+{
+margin-right: 20px;
+}
+.pos
+{
+  position: absolute;
+  bottom: 85%;
+  right: 3%;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 100%;
+  font-size: 2rem;
+  box-shadow: 0 3px 20px maroon;
+  color: cadetblue;
+}
+
+.float-left
+{
+  float: left;
+}
+.ml
+{
+  margin-left: auto;
+}
+.fa-gear
+{
+  font-size:  x-large;
+  color: cadetblue;
+  padding: 3px;
+}
+#opt
+{
+  position: fixed;
+  left: 0px;
+  top: 30%;
+  z-index: 15151515;
+  cursor: pointer;
+}
+.items 
+{
+  background-color: rgb(230, 255, 255);
+  border-radius: 10px;
+  border: #333 solid .5px;
+  margin-bottom: 25%;
+  
+}
+
+.items:hover
+{
+  box-shadow: 5px 10px 8px #888888;
+  background-color: rgb(81, 248, 248);
+}
+.box-color
+{
+  background-color: darkgrey;
+border: solid 5px rgb(164, 156, 164);
+padding: 1vh;
+}
+.colori
+{
+width: 4vh;
+height: 4vh;
+display: inline-block;
+}
+.wid
+{
+  width: 4vh;
+height: 4vh;
+display: inline-block;
+}
+#navb
+{
+  transition: background-color 1s;
+}
+#bt
+{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 600;
+}
+header
+{
+  background-image: url(../photo/2015_jaguar_c_x75_007_spectre_bond_car-3840x2160.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  color: aliceblue;
+}
+.layer
+{
+  background-color: rgba(0, 0, 0, .7);
+  height: 100%;
+}
+.na
+{
+  background-color: rgba(0, 0, 0, .2);
+}
+.line
+{
+  height: 1px;
+  background-color: turquoise;
+}
+.layer h3
+{
+  transform: rotate(-90deg);
+  transform-origin: top right;
+}
+.layer h3::after
+{
+content: "";
+height: 10%;
+width: 15%;
+background-color: turquoise;
+position: absolute;
+right: 102%;
+top: 45%;
+}
+#loading
+{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #FF3D00;
+  z-index: 9999999999999999999;
+}
+
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 20% auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #333;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
